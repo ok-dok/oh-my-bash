@@ -153,3 +153,4 @@ OMB_ALIAS_PACKAGE_MANAGER_SUDO=sudo
 # Example aliases
 alias bashconfig="vim ~/.bashrc"
 alias ohmybash="code ~/.oh-my-bash"
+alias tree="tree -A -C"
