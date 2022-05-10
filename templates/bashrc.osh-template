@@ -5,11 +5,11 @@ case $- in
 esac
 
 # Path to your oh-my-bash installation.
-export OSH=~/.oh-my-bash
+export OSH=/Users/dokey/.oh-my-bash
 
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-bash is loaded.
-OSH_THEME="font"
+OSH_THEME="purity"
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
@@ -61,6 +61,27 @@ completions=(
   git
   composer
   ssh
+  brew
+  conda
+  defaults
+  dirs
+  django
+  docker-compose
+  docker-machine
+  docker
+  go
+  gradle
+  kubectl
+  makefile
+  maven
+  minikube
+  npm
+  nvm
+  pip
+  pip3
+  system
+  svn
+  todo
 )
 
 # Which aliases would you like to load? (aliases can be found in ~/.oh-my-bash/aliases/*)
@@ -69,6 +90,10 @@ completions=(
 # Add wisely, as too many aliases slow down shell startup.
 aliases=(
   general
+  chmod
+  ls
+  misc
+  package-manager
 )
 
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-bash/plugins/*)
@@ -78,6 +103,14 @@ aliases=(
 plugins=(
   git
   bashmarks
+  golang
+  goenv
+  brew
+  ansible
+  kubectl
+  nvm
+  npm
+  progress
 )
 
 # Which plugins would you like to conditionally load? (plugins can be found in ~/.oh-my-bash/plugins/*)
@@ -108,11 +141,15 @@ source "$OSH"/oh-my-bash.sh
 # ssh
 # export SSH_KEY_PATH="~/.ssh/rsa_id"
 
+# Use sudo to run the package manager
+OMB_ALIAS_PACKAGE_MANAGER_SUDO=sudo
+
 # Set personal aliases, overriding those provided by oh-my-bash libs,
 # plugins, and themes. Aliases can be placed here, though oh-my-bash
 # users are encouraged to define aliases within the OSH_CUSTOM folder.
 # For a full list of active aliases, run `alias`.
 #
+
 # Example aliases
-# alias bashconfig="mate ~/.bashrc"
-# alias ohmybash="mate ~/.oh-my-bash"
+alias bashconfig="vim ~/.bashrc"
+alias ohmybash="code ~/.oh-my-bash"
