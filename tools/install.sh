@@ -219,3 +219,6 @@ export OSH=$OSH
   set -- "$0" "$@"
 
 _omb_install_main "$@" 5>&2
+
+# copy .vimrc to user's home dir
+cp -f $OSH/.vimrc ~/

@@ -156,4 +156,10 @@ fi
 [ -s /usr/bin/gloobus-preview ] && PREVIEW="gloobus-preview" ||
 [ -s /Applications/Preview.app ] && PREVIEW="/Applications/Preview.app" || PREVIEW="less"
 
-cp $OSH/.vimrc ~/
+printf '%s' "$GREEN"
+  printf '%s\n' \
+    '         __                          __               __  ' \
+    '  ____  / /_     ____ ___  __  __   / /_  ____ ______/ /_ ' \
+    ' / __ \/ __ \   / __ `__ \/ / / /  / __ \/ __ `/ ___/ __ \' \
+    '/ /_/ / / / /  / / / / / / /_/ /  / /_/ / /_/ (__  ) / / /' \
+    '\____/_/ /_/  /_/ /_/ /_/\__, /  /_.___/\__,_/____/_/ /_/ '

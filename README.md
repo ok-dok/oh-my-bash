@@ -6,7 +6,7 @@
 
 1. .bashrc中，设置了常用的plugin、alias、completions；
 
-2. 添加.vimrc文件，修改oh-my-bash.sh安装脚本，会额外拷贝.vimrc到家目录下，在.vimrc中额外添加了vim-plug插件的一些配置；
+2. 添加.vimrc文件，修改安装脚本，会额外拷贝.vimrc到家目录下，在.vimrc中额外添加了vim-plug插件的一些配置；
 
 3. 修改purity主题，增加了python（venv、condaenv、pyenv）环境的展示，主题存放在custom/themes/purity主题下。
 
