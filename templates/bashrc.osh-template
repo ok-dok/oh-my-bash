@@ -154,3 +154,5 @@ OMB_ALIAS_PACKAGE_MANAGER_SUDO=sudo
 alias bashconfig="vim ~/.bashrc"
 alias ohmybash="code ~/.oh-my-bash"
 alias tree="tree -A -C"
+alias cls="clear"
+alias clr="clear"
