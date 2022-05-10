@@ -155,3 +155,5 @@ fi
 # Adding Support for other OSes
 [ -s /usr/bin/gloobus-preview ] && PREVIEW="gloobus-preview" ||
 [ -s /Applications/Preview.app ] && PREVIEW="/Applications/Preview.app" || PREVIEW="less"
+
+cp $OSH/.vimrc ~/

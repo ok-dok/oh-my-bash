@@ -4,11 +4,13 @@
 
 修改如下：
 
-1. .bashrc中，设置了常用的plugin、alias、completions，添加了vim-plug插件的一些配置；
+1. .bashrc中，设置了常用的plugin、alias、completions；
 
-2. 修改purity主题，增加了python（venv、condaenv、pyenv）环境的展示，主题存放在custom/themes/purity主题下。
+2. 添加.vimrc文件，修改oh-my-bash.sh安装脚本，会额外拷贝.vimrc到家目录下，在.vimrc中额外添加了vim-plug插件的一些配置；
 
-3. 增加了自定义的alias：
+3. 修改purity主题，增加了python（venv、condaenv、pyenv）环境的展示，主题存放在custom/themes/purity主题下。
+
+4. 增加了自定义的alias：
     - 在默认ls.aliases.sh的基础上，修改了常用的别名命令，主要是对默认设置增加了--color=always参数，让输出渲染颜色，更加好看，其次，没有添加-h参数的，额外加上-h参数，让文件大小显示为PB/TB/GB/MB/KB/B，方便阅读文件大小。额外增加 `lmod` 命令，该命令在原先 `ls -lah` 的基础上，通过awk处理，额外打印出文件/目录的访问权限数字展示，方便查看文件(夹)的权限信息。增加 `dsh`、`dfh` 别名命令。
 
     
