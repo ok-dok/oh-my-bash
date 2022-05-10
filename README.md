@@ -13,7 +13,24 @@
 4. 增加了自定义的alias：
     - 在默认ls.aliases.sh的基础上，修改了常用的别名命令，主要是对默认设置增加了--color=always参数，让输出渲染颜色，更加好看，其次，没有添加-h参数的，额外加上-h参数，让文件大小显示为PB/TB/GB/MB/KB/B，方便阅读文件大小。额外增加 `lmod` 命令，该命令在原先 `ls -lah` 的基础上，通过awk处理，额外打印出文件/目录的访问权限数字展示，方便查看文件(夹)的权限信息。增加 `dsh`、`dfh` 别名命令。
 
-    
+
+## 效果图
+
+没有git仓库时：
+
+![example1](img/example1_purity.jpg)
+
+有git仓库时：
+
+![example2](img/example2_purity.png)
+
+vim 编辑指定文件：
+
+![example3](img/example3_purity.png)
+
+vim 编辑不指定文件时，配合NERDTree展示目录：
+
+![example4](img/example4_purity.png)
 
 ---
 Oh My Bash is an open source, community-driven framework for managing your [bash](https://www.gnu.org/software/bash/) configuration.
